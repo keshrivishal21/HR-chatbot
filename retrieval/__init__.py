@@ -1,0 +1,80 @@
+# ===========================
+# Dependencies
+# ===========================
+node_modules/
+venv/
+.venv/
+env/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.*
+!.env.example
+
+# ===========================
+# Build Files
+# ===========================
+dist/
+build/
+out/
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+*.swp
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# ===========================
+# Vector Databases
+# ===========================
+vector_store/
+faiss_index/
+chroma/
+*.faiss
+*.pkl
+
+# ===========================
+# Uploads (optional)
+# ===========================
+uploads/
+
+# ===========================
+# Temporary Files
+# ===========================
+tmp/
+temp/
+
+# ===========================
+# Cache
+# ===========================
+.cache/
